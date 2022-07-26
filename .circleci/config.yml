@@ -55,9 +55,9 @@ jobs:
 
             
 workflows:
-  udagram:
+  build:
     jobs:
-      - build
+      - build:
           filters:
             branches:
               only:
